@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual Environments
+venv/
+env/
+.env/
+
+# Data and Models - EXCLUDE THESE FROM GIT
+data/
+*.zip
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# Training Logs and Outputs
+train_results/
+plots_and_metrics/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
