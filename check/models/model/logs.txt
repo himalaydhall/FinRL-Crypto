@@ -1,0 +1,141 @@
+##################################  || ppo || ##################################
+MODEL NAME: ppo
+TRIAL NUMBER: 0
+CWD: ./train_results/cwd_tests/model_KCV_ppo_5m_4H_25k
+{'learning_rate': 0.03, 'batch_size': 512, 'gamma': 0.99, 'net_dimension': 1024, 'target_step': 37500, 'eval_time_gap': 60, 'break_step': 45000.0}
+{'lookback': 1, 'norm_cash': 0.000244140625, 'norm_stocks': 0.00390625, 'norm_tech': 3.0517578125e-05, 'norm_reward': 0.0009765625, 'norm_action': 10000}
+
+TIME START OUTER: 2026-03-08 11:59:39.884690
+TIME START INNER: 2026-03-08 11:59:39.886432K-Fold:           0
+SPLIT: 0     # Optimizing for Sharpe ratio!
+BOT:         26.127246470956045
+HODL:        0.01986935486846152
+TIME END INNER: 2026-03-08 12:08:10.824542
+
+TIME START INNER: 2026-03-08 12:08:10.836127K-Fold:           1
+SPLIT: 1     # Optimizing for Sharpe ratio!
+BOT:         28.347786494001554
+HODL:        0.027922470310798267
+TIME END INNER: 2026-03-08 12:18:28.458100
+
+TIME START INNER: 2026-03-08 12:18:28.460028K-Fold:           2
+SPLIT: 2     # Optimizing for Sharpe ratio!
+BOT:         25.838168820707327
+HODL:        -0.0911071986508786
+TIME END INNER: 2026-03-08 12:26:45.399373
+
+TIME START INNER: 2026-03-08 12:26:45.401024K-Fold:           3
+SPLIT: 3     # Optimizing for Sharpe ratio!
+BOT:         24.59947014227007
+HODL:        0.015967278556076086
+TIME END INNER: 2026-03-08 12:37:42.212535
+
+TIME START INNER: 2026-03-08 12:37:42.214662K-Fold:           4
+SPLIT: 4     # Optimizing for Sharpe ratio!
+BOT:         25.21153740605739
+HODL:        0.0683582717664754
+TIME END INNER: 2026-03-08 12:48:43.199978
+
+
+HYPERPARAMETER EVAL || SHARPE AVG BOT    :  26.024841866798475
+HYPERPARAMETER EVAL || SHARPE AVG HODL     : 0.008202035370186534
+DIFFERENCE                                 : 26.01663983142829
+
+TIME END OUTER: 2026-03-08 12:48:43.202061
+
+MODEL NAME: ppo
+TRIAL NUMBER: 1
+CWD: ./train_results/cwd_tests/model_KCV_ppo_5m_4H_25k
+{'learning_rate': 0.015, 'batch_size': 3080, 'gamma': 0.99, 'net_dimension': 512, 'target_step': 37500, 'eval_time_gap': 60, 'break_step': 60000.0}
+{'lookback': 1, 'norm_cash': 0.000244140625, 'norm_stocks': 0.00390625, 'norm_tech': 3.0517578125e-05, 'norm_reward': 0.0009765625, 'norm_action': 10000}
+
+TIME START OUTER: 2026-03-08 12:48:43.398432
+TIME START INNER: 2026-03-08 12:48:43.399986K-Fold:           0
+SPLIT: 0     # Optimizing for Sharpe ratio!
+BOT:         18.9416154990197
+HODL:        0.01986935486846152
+TIME END INNER: 2026-03-08 12:54:02.429737
+
+TIME START INNER: 2026-03-08 12:54:02.432756K-Fold:           1
+SPLIT: 1     # Optimizing for Sharpe ratio!
+BOT:         28.559647245290517
+HODL:        0.027922470310798267
+TIME END INNER: 2026-03-08 12:58:08.885951
+
+TIME START INNER: 2026-03-08 12:58:08.887781K-Fold:           2
+SPLIT: 2     # Optimizing for Sharpe ratio!
+BOT:         27.407506311526944
+HODL:        -0.0911071986508786
+TIME END INNER: 2026-03-08 13:02:03.690505
+
+TIME START INNER: 2026-03-08 13:02:03.692130K-Fold:           3
+SPLIT: 3     # Optimizing for Sharpe ratio!
+BOT:         28.189489030476278
+HODL:        0.015967278556076086
+TIME END INNER: 2026-03-08 13:09:34.585951
+
+TIME START INNER: 2026-03-08 13:09:34.587956K-Fold:           4
+SPLIT: 4     # Optimizing for Sharpe ratio!
+BOT:         26.236494969389994
+HODL:        0.0683582717664754
+TIME END INNER: 2026-03-08 13:17:38.600545
+
+
+HYPERPARAMETER EVAL || SHARPE AVG BOT    :  25.866950611140687
+HYPERPARAMETER EVAL || SHARPE AVG HODL     : 0.008202035370186534
+DIFFERENCE                                 : 25.858748575770502
+
+TIME END OUTER: 2026-03-08 13:17:38.602531
+
+MODEL NAME: ppo
+TRIAL NUMBER: 2
+CWD: ./train_results/cwd_tests/model_KCV_ppo_5m_4H_25k
+{'learning_rate': 0.015, 'batch_size': 512, 'gamma': 0.999, 'net_dimension': 4096, 'target_step': 50000.0, 'eval_time_gap': 60, 'break_step': 30000.0}
+{'lookback': 1, 'norm_cash': 0.000244140625, 'norm_stocks': 0.00390625, 'norm_tech': 3.0517578125e-05, 'norm_reward': 0.0009765625, 'norm_action': 10000}
+
+TIME START OUTER: 2026-03-08 13:17:38.759565
+TIME START INNER: 2026-03-08 13:17:38.761206K-Fold:           0
+SPLIT: 0     # Optimizing for Sharpe ratio!
+BOT:         26.452884578986836
+HODL:        0.01986935486846152
+TIME END INNER: 2026-03-08 14:54:55.069186
+
+TIME START INNER: 2026-03-08 14:54:55.077228K-Fold:           1
+SPLIT: 1     # Optimizing for Sharpe ratio!
+BOT:         28.783243106332737
+HODL:        0.027922470310798267
+TIME END INNER: 2026-03-08 17:07:28.884094
+
+TIME START INNER: 2026-03-08 17:07:28.895831K-Fold:           2
+SPLIT: 2     # Optimizing for Sharpe ratio!
+BOT:         28.206879068326337
+HODL:        -0.0911071986508786
+TIME END INNER: 2026-03-08 20:05:07.072795
+
+TIME START INNER: 2026-03-08 20:05:07.078587K-Fold:           3
+SPLIT: 3     # Optimizing for Sharpe ratio!
+BOT:         28.773792402859165
+HODL:        0.015967278556076086
+TIME END INNER: 2026-03-08 21:10:36.510993
+
+TIME START INNER: 2026-03-08 21:10:36.514210K-Fold:           4
+SPLIT: 4     # Optimizing for Sharpe ratio!
+BOT:         25.297993494494293
+HODL:        0.0683582717664754
+TIME END INNER: 2026-03-08 23:42:40.430825
+
+
+HYPERPARAMETER EVAL || SHARPE AVG BOT    :  27.502958530199873
+HYPERPARAMETER EVAL || SHARPE AVG HODL     : 0.008202035370186534
+DIFFERENCE                                 : 27.494756494829687
+
+TIME END OUTER: 2026-03-08 23:42:40.441256
+
+MODEL NAME: ppo
+TRIAL NUMBER: 3
+CWD: ./train_results/cwd_tests/model_KCV_ppo_5m_4H_25k
+{'learning_rate': 5e-06, 'batch_size': 1280, 'gamma': 0.85, 'net_dimension': 1024, 'target_step': 50000.0, 'eval_time_gap': 60, 'break_step': 30000.0}
+{'lookback': 1, 'norm_cash': 0.000244140625, 'norm_stocks': 0.00390625, 'norm_tech': 3.0517578125e-05, 'norm_reward': 0.0009765625, 'norm_action': 10000}
+
+TIME START OUTER: 2026-03-08 23:42:41.757691
+TIME START INNER: 2026-03-08 23:42:41.761288K-Fold:           0

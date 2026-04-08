@@ -27,6 +27,16 @@ train_results/
 plots_and_metrics/
 *.log
 
+# Environment secrets
+.env
+
+# Models (large files) - only exclude at root level
+/models/
+*.pt
+*.pth
+*.h5
+*.pkl
+
 # OS generated files
 .DS_Store
 Thumbs.db
