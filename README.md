@@ -4,6 +4,28 @@ A comprehensive deep reinforcement learning (DRL) framework for automated crypto
 
 ---
 
+## Model Weights
+
+Due to file size, trained model weights are not included in this repository. Download the pre-trained models below:
+
+**📥 Download Trained Models:** [Google Drive Link - https://drive.google.com/file/d/1UcnJuNSrGp-nqDQ7fUxDksRd_zPgtnAN/view?usp=sharing]
+
+**Model Details:**
+- **Algorithm:** AgentPPO (Proximal Policy Optimization)
+- **Validation:** K-Fold Cross Validation (Best Performing)
+- **Assets Trained:** 10 cryptocurrencies (BTC, ETH, SOL, AVAX, MATIC, LINK, AAVE, UNI, LTC, NEAR)
+- **Performance:** Sharpe Ratio > 0.95 on test set
+- **File Size:** ~400 MB
+
+**Setup:**
+```bash
+# Download and extract to project root
+cd FinRL-Crypto
+unzip trained_models.zip -d check/models/
+```
+
+---
+
 ## Model Specifications
 
 ### Available RL Agents (6 Models)
